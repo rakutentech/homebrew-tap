@@ -3,9 +3,9 @@ class Jwkgen < Formula
 following algorithms and curves
 "
   homepage "https://github.com/rakutentech/jwkgen"
-  url "https://github.com/rakutentech/jwkgen/releases/download/v1.3.3/jwkgen-darwin-x86_64.tar.gz"
-  version "1.3.3"
-  sha256 "c40e11800555a72801ddeae0cb2e2275a905ef1827943fc71c06d8f5b79c16c9"
+  url "https://github.com/rakutentech/jwkgen/releases/download/v1.3.4/jwkgen-darwin-x86_64.tar.gz"
+  version "1.3.4"
+  sha256 "a8d64309bca63626d6f449f05cef5f69c0fcfa045242dbe170d9ac656f5f14f4"
 
   def install
     bin.install "jwkgen"
