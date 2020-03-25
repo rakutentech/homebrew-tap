@@ -4,24 +4,24 @@ class Jwkgen < Formula
 following algorithms and curves
 "
   homepage "https://github.com/rakutentech/jwkgen"
-  version "1.4.2"
+  version "1.4.5"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/rakutentech/jwkgen/releases/download/v1.4.2/jwkgen-darwin-x86_64.tar.gz"
-    sha256 "f1859a973238467546152d876a508e2bacc669a920281ab6618aa8c1961b31fa"
+    url "https://github.com/rakutentech/jwkgen/releases/download/v1.4.5/jwkgen-darwin-x86_64.tar.gz"
+    sha256 "dc46512e55139afdc97871ba1ccb8aeaef20d1d2e756df616ab525e150e74b9e"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/rakutentech/jwkgen/releases/download/v1.4.2/jwkgen-linux-x86_64.tar.gz"
-      sha256 "4f6bd1673b65a42e7759e28dcf0941c80a19a2edd498badfbd4a70ecd51cee7f"
+      url "https://github.com/rakutentech/jwkgen/releases/download/v1.4.5/jwkgen-linux-x86_64.tar.gz"
+      sha256 "bafa7235e04b254d99980aabc4081ba9b961e116be20f83651be97afd6d1b4b8"
     end
     if Hardware::CPU.arm?
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/rakutentech/jwkgen/releases/download/v1.4.2/jwkgen-linux-arm64.tar.gz"
-        sha256 "700d25e22f764c7382c26c73de18cb60e360e61af9b2154021b29f86ce8102c4"
+        url "https://github.com/rakutentech/jwkgen/releases/download/v1.4.5/jwkgen-linux-arm64.tar.gz"
+        sha256 "1a8b220132673f953735245f78f5ab00dff4a5b08a607a7c73cd0f9461144b04"
       else
-        url "https://github.com/rakutentech/jwkgen/releases/download/v1.4.2/jwkgen-linux-armv6.tar.gz"
-        sha256 "adb2d87656ea81595625006e28ede3dc6ac373d947f177b22cb49c2078bcdcba"
+        url "https://github.com/rakutentech/jwkgen/releases/download/v1.4.5/jwkgen-linux-armv6.tar.gz"
+        sha256 "6cb1b41a93d3cb643d6e5d7440c6e6119cc2560ead6276b2027fd9aaae87f932"
       end
     end
   end
